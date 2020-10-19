@@ -58,3 +58,11 @@ Route::get('/tarefas', function (){
 		'Carregar cartão'];
 		return view ('tarefas',['tarefas' => $tarefas]);
 });
+
+Route::get('/entrada',function(){
+	return view ('entrada');
+});
+
+Route::get('/listar-equipas',function(){
+	return view ('listar-equipas');
+});
